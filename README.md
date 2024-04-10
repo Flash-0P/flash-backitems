@@ -1,44 +1,38 @@
-# Renewed Weapons and Carry Script
-<a href='https://ko-fi.com/FjamZoo' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-</a>
-
-[Renewed Discord](https://discord.gg/P3RMrbwA8n)
+# Flash backitems and weapon Script
 
 # Description
 
-Welcome to Renewed Weapons and Carry Script, this script allows user to define Player slots when it comes to weapons / items on the players back along with a few other features such as.
+Welcome to Flash backitems and weapon Script, this script allows user to define Player slots when it comes to weapons / items on the players back along with a few other features such as.
 
 Carrying items that can affect how the player reacts such as stopping them from sprint, getting in vehicles and much more!
-
-[Preview](https://streamable.com/deh7tk)
 
 # How to install
 Step 3 and 4 are skippable if you do not use qb-apartments or dont use qb-apartments with routing buckets
 
 1. Download the latest version of the script
 2. Extract the files to your server root directory
-3. Head over to your qb-apartments and add this `exports['Renewed-Weaponscarry']:toggleProps()` to line 256 right under Wait(250) in the function EnterApartment
-4. Now scroll down till you find `local function LeaveApartment` and past this right under it around line 317 `exports['Renewed-Weaponscarry']:toggleProps()`
-5. Add the following line to your server.cfg file `ensure Renewed-Weaponscarry`
+3. Head over to your qb-apartments and add this `exports['flash-backitems']:toggleProps()` to line 256 right under Wait(250) in the function EnterApartment
+4. Now scroll down till you find `local function LeaveApartment` and past this right under it around line 317 `exports['flash-backitems']:toggleProps()`
+5. Add the following line to your server.cfg file `ensure flash-backitems`
 6. ENJOY!
 
 # Additional Information // Exports
 
-1. `exports["Renewed-Weaponscarry"]:GetPlayerCarryItems()` - Returns a table of all the items the player is carrying
+1. `exports["flash-backitems"]:GetPlayerCarryItems()` - Returns a table of all the items the player is carrying
 
-2. `exports["Renewed-Weaponscarry"]:toggleProps()` - Toggles the props for the player and wont load them untill they are toggled back on OR if they are in their apartments
+2. `exports["flash-backitems"]:toggleProps()` - Toggles the props for the player and wont load them untill they are toggled back on OR if they are in their apartments
 
 3. `exports["skyx-backitems"]:refreshProps()` - Refreshes the props for the player toggle this at at the END of your refreshskin events to make sure the props get removed and refreshed the proper way
 
-4. `exports["Renewed-Weaponscarry"]:isCarryingObject()` - Returns true if the player is carrying an any item
+4. `exports["flash-backitems"]:isCarryingObject()` - Returns true if the player is carrying an any item
 
 5. `exports["Renewed-Weaponscarry"]:makeObjectBusy(item, toggle)` - This acts as if the particular item was removed or used by the player, this is useful for items that can be used multiple times such as a fishing rod, this would allow the player to when they start using the rod for it to be removed on the back untill they are done using it
 
-6. `exports["Renewed-Weaponscarry"]:carryProp(item)` - Acts as if the player was given x item to carry, this DOES NOT work with weapons on back ONLY CARRYABLE items
+6. `exports["flash-backitems"]:carryProp(item)` - Acts as if the player was given x item to carry, this DOES NOT work with weapons on back ONLY CARRYABLE items
 
-7. `exports["Renewed-Weaponscarry"]:removeProp(item)` - Acts as if x item was removed from the player, this DOES NOT work with weapons on back ONLY CARRYABLE items
+7. `exports["flash-backitems"]:removeProp(item)` - Acts as if x item was removed from the player, this DOES NOT work with weapons on back ONLY CARRYABLE items
 
-8. `exports["Renewed-Weaponscarry"]:isCarryingAnObject(item)` - Returns true if the players is carrying a specific item
+8. `exports["flash-backitems"]:isCarryingAnObject(item)` - Returns true if the players is carrying a specific item
 
 # How to add new Items
 
@@ -87,8 +81,3 @@ Here's how you add a new item to be Carryable, in this demonstration I used a oi
     dict = Optional. If not set, will request the default directory
     anim = Optional. If not set, will play the default animation. If set to "none", will not play an animation.
 ```
-
-
-### Misc Information.
-How to locate the different props I normally use this website: https://forge.plebmasters.de/
-For bones its either trial or error with the tool above or you can use this website: https://wiki.rage.mp/index.php?title=Bones
