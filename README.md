@@ -26,7 +26,7 @@ Step 3 and 4 are skippable if you do not use qb-apartments or dont use qb-apartm
 
 4. `exports["flash-backitems"]:isCarryingObject()` - Returns true if the player is carrying an any item
 
-5. `exports["Renewed-Weaponscarry"]:makeObjectBusy(item, toggle)` - This acts as if the particular item was removed or used by the player, this is useful for items that can be used multiple times such as a fishing rod, this would allow the player to when they start using the rod for it to be removed on the back untill they are done using it
+5. `exports["flash-backitems"]:makeObjectBusy(item, toggle)` - This acts as if the particular item was removed or used by the player, this is useful for items that can be used multiple times such as a fishing rod, this would allow the player to when they start using the rod for it to be removed on the back untill they are done using it
 
 6. `exports["flash-backitems"]:carryProp(item)` - Acts as if the player was given x item to carry, this DOES NOT work with weapons on back ONLY CARRYABLE items
 
