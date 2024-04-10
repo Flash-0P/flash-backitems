@@ -30,7 +30,9 @@ Step 3 and 4 are skippable if you do not use qb-apartments or dont use qb-apartm
 
 6. `exports["flash-backitems"]:carryProp(item)` - Acts as if the player was given x item to carry, this DOES NOT work with weapons on back ONLY CARRYABLE items
 
-7. `exports["flash-backitems"]:removeProp(item)` - Acts as if x item was removed from the player, this DOES NOT work with weapons on back ONLY CARRYABLE items
+7. `exports["flash-backitems"]:removeProp(item)` - Acts as if x item was removed from the player, this DOES NOT work with weapons on back ONLY CARRYABLE items![backitems2](https://github.com/Flash-0p/flash-backitems/assets/128111282/e13aa377-19b7-41e6-9feb-32c4d503cef9)
+![backitems](https://github.com/Flash-0p/flash-backitems/assets/128111282/1c9ad73d-8c1f-4476-be2a-d6f24285f233)
+
 
 8. `exports["flash-backitems"]:isCarryingAnObject(item)` - Returns true if the players is carrying a specific item
 
