@@ -34,7 +34,6 @@ Step 3 and 4 are skippable if you do not use qb-apartments or dont use qb-apartm
 
 8. `exports["flash-backitems"]:isCarryingAnObject(item)` - Returns true if the players is carrying a specific item
 
-https://cdn.discordapp.com/attachments/1008576792015142982/1227578673151082538/ijts6QG.jpeg?ex=6628eaba&is=661675ba&hm=5ecdfd3182a8194929d1aa44d739f4e17c7906057239bfaee91da771e6dbf84f&
 
 # How to add new Items
 
