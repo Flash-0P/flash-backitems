@@ -82,3 +82,5 @@ Here's how you add a new item to be Carryable, in this demonstration I used a oi
     dict = Optional. If not set, will request the default directory
     anim = Optional. If not set, will play the default animation. If set to "none", will not play an animation.
 ```
+![backitems2](https://github.com/Flash-0p/flash-backitems/assets/128111282/df330e96-bb8c-4819-80fb-4b98e8f537b6)
+![backitems](https://github.com/Flash-0p/flash-backitems/assets/128111282/a16b530c-7d9c-4953-9637-b954274da6e9)
