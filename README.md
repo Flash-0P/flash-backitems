@@ -3,7 +3,7 @@
 # Description
 
 Welcome to Flash backitems and weapon Script, this script allows user to define Player slots when it comes to weapons / items on the players back along with a few other features such as.
-
+Pertial Working With `OX_INVENTORY` you have to change your self
 Carrying items that can affect how the player reacts such as stopping them from sprint, getting in vehicles and much more!
 
 # How to install
@@ -14,7 +14,8 @@ Step 3 and 4 are skippable if you do not use qb-apartments or dont use qb-apartm
 3. Head over to your qb-apartments and add this `exports['flash-backitems']:toggleProps()` to line 256 right under Wait(250) in the function EnterApartment
 4. Now scroll down till you find `local function LeaveApartment` and past this right under it around line 317 `exports['flash-backitems']:toggleProps()`
 5. Add the following line to your server.cfg file `ensure flash-backitems`
-6. ENJOY!
+6. Rename the resource as `flash-backitems`[remove`-main`]
+7. ENJOY!
 
 # Additional Information // Exports
 
