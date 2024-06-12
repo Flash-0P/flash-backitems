@@ -3,8 +3,10 @@
 # Description
 
 Welcome to Flash backitems and weapon Script, this script allows user to define Player slots when it comes to weapons / items on the players back along with a few other features such as.
-Pertial Working With `OX_INVENTORY` you have to change your self
+
 Carrying items that can affect how the player reacts such as stopping them from sprint, getting in vehicles and much more!
+
+Pertial Working With `OX_INVENTORY` you have to change your self
 
 # How to install
 Step 3 and 4 are skippable if you do not use qb-apartments or dont use qb-apartments with routing buckets
