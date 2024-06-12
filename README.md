@@ -1,6 +1,6 @@
 # Flash backitems and weapon Script For QBCORE
 For `ps-inventory` and `qb-inventory`
-Pertial Working With `OX_INVENTORY` you have to change your self
+Pertial Working With `OX_INVENTORY` you have to change functions your self
 
 
 # Description
