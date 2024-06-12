@@ -1,4 +1,4 @@
-# Flash backitems and weapon Script
+# Flash backitems and weapon Script For QBCORE and PS-INVENTORY ABD QB-INVENTORY
 
 # Description
 
@@ -22,7 +22,7 @@ Step 3 and 4 are skippable if you do not use qb-apartments or dont use qb-apartm
 
 2. `exports["flash-backitems"]:toggleProps()` - Toggles the props for the player and wont load them untill they are toggled back on OR if they are in their apartments
 
-3. `exports["skyx-backitems"]:refreshProps()` - Refreshes the props for the player toggle this at at the END of your refreshskin events to make sure the props get removed and refreshed the proper way
+3. `exports["flash-backitems"]:refreshProps()` - Refreshes the props for the player toggle this at at the END of your refreshskin events to make sure the props get removed and refreshed the proper way
 
 4. `exports["flash-backitems"]:isCarryingObject()` - Returns true if the player is carrying an any item
 
