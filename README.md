@@ -1,4 +1,4 @@
-# Flash backitems and weapon Script For QBCORE
+# Flash backitems and weapon Script For OLD qb
 For `ps-inventory` and `qb-inventory`
 Pertial Working With `OX_INVENTORY` you have to change functions your self
 
