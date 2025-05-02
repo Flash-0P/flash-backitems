@@ -43,7 +43,7 @@ local PlayerSlots = {
 
 
 
--- Add your items here --
+-- Add your items here fixed --
 local props = {
   ---- ** Drugs ** ----
   -- Weed
